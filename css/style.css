@@ -1,11 +1,6 @@
 .container{
     min-height: 500px;
 }
-.container-540px{
-    width: 100%;
-    max-width: 540px;
-    border: 1px dashed red;
-} 
 .h-100px{
     height: 100px;
 }
@@ -15,16 +10,26 @@
 .h-600px{
     height: 600px;
 }
-.container-540px > .col-12{
+.row{
+    height: 100%;
+}
+#about-me{
+    height: 600px;
+}
+#address, #contact-me{
+    height: 400px;
+}
+.container-sm > .col-12{
     height: 450px;
     border: 1px dashed grey;
+    border-radius: 20px;
 }
 #about-me .col-8{
-    height: 300px;
+    height: 100%;
     border: 1px dashed yellowgreen;
 }
 #contact-me .col-8{
-    height: 400px;
+    height: 100%;
     border: 1px dashed red;
 }
 #address .col-10{
@@ -38,6 +43,8 @@
 #presentation{
     min-height: 400px;
 }
+
+/* Color */
 .header-color{
     background-color: #2c3e50;
 }
@@ -64,4 +71,15 @@ background-color: #3a546d;
 }
 .footer-color{
     background-color: #2c3e50;
+}
+@media  screen and (min-width:720px) {
+    .container-md > .col-12 {
+        height: 300px;
+    }
+    #about-me{
+        height: 450px;
+    }
+    #address{
+        height: 200px;
+    }
 }
