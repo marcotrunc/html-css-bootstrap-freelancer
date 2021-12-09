@@ -1,49 +1,36 @@
-.container{
-    min-height: 500px;
-}
+
 .h-100px{
     height: 100px;
 }
-.h-400px{
-    min-height: 400px;
-}
-.h-600px{
-    height: 600px;
-}
-.row{
-    height: 100%;
-}
-#about-me{
-    height: 600px;
-}
-#address, #contact-me{
+#presentation{
     height: 400px;
 }
-.container-sm  .col-12{
+#about-me{
+    height: 500px;
+}
+#contact-me{
+    height: 500px;
+}
+#address{
     height: 300px;
-    border: 1px dashed grey;
-    border-radius: 20px;
 }
-#about-me .col-8{
-    height: 100%;
-    border: 1px dashed yellowgreen;
+footer{
+    height: 150px;
 }
-#contact-me .col-8{
-    height: 100%;
+.border-dash{
     border: 1px dashed red;
 }
-#address .col-10{
-    height: 120px;
-    border: 1px dashed red;
+#projects .col-12{
+    height: 300px;
+    border-radius: 10px;
 }
-.col{
-    min-height: 50px;
-    border: 1px dashed red;
+#projects .col-4{
+    height: 50px;
 }
-#presentation{
-    min-height: 400px;
+.footer .col-6{
+    width: 20px;
+    height: 20px;
 }
-
 /* Color */
 .header-color{
     background-color: #2c3e50;
