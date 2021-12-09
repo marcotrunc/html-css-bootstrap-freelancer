@@ -6,12 +6,30 @@
     max-width: 540px;
     border: 1px dashed red;
 } 
+.h-100px{
+    height: 100px;
+}
 .h-400px{
     min-height: 400px;
+}
+.h-600px{
+    height: 600px;
 }
 .container-540px > .col-12{
     height: 450px;
     border: 1px dashed grey;
+}
+#about-me .col-8{
+    height: 300px;
+    border: 1px dashed yellowgreen;
+}
+#contact-me .col-8{
+    height: 400px;
+    border: 1px dashed red;
+}
+#address .col-10{
+    height: 120px;
+    border: 1px dashed red;
 }
 .col{
     min-height: 50px;
@@ -23,7 +41,7 @@
 .header-color{
     background-color: #2c3e50;
 }
-.presentation-color{
+.presentation-color, .about-me-color{
     background-color: #1abc9c;
 }
 .pro-pink{
@@ -40,4 +58,10 @@
 }
 .pro-grey{
     background-color: #ccb2a3;
+}
+.address-color{  
+background-color: #3a546d;
+}
+.footer-color{
+    background-color: #2c3e50;
 }
