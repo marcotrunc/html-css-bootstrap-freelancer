@@ -1,8 +1,17 @@
 .container{
     min-height: 500px;
 }
+.container-540px{
+    width: 100%;
+    max-width: 540px;
+    border: 1px dashed red;
+} 
 .h-400px{
     min-height: 400px;
+}
+.container-540px > .col-12{
+    height: 450px;
+    border: 1px dashed grey;
 }
 .col{
     min-height: 50px;
@@ -16,4 +25,19 @@
 }
 .presentation-color{
     background-color: #1abc9c;
+}
+.pro-pink{
+    background-color: #ba4b63;
+}
+.pro-light-blue{
+    background-color: #1ea4b6;
+}
+.pro-heavenly{
+    background-color: #1c83c1;
+}
+.pro-blue{
+    background-color: #0e38b5;
+}
+.pro-grey{
+    background-color: #ccb2a3;
 }
