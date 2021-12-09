@@ -19,8 +19,8 @@
 #address, #contact-me{
     height: 400px;
 }
-.container-sm > .col-12{
-    height: 450px;
+.container-sm  .col-12{
+    height: 300px;
     border: 1px dashed grey;
     border-radius: 20px;
 }
@@ -71,15 +71,4 @@ background-color: #3a546d;
 }
 .footer-color{
     background-color: #2c3e50;
-}
-@media  screen and (min-width:720px) {
-    .container-md > .col-12 {
-        height: 300px;
-    }
-    #about-me{
-        height: 450px;
-    }
-    #address{
-        height: 200px;
-    }
 }
