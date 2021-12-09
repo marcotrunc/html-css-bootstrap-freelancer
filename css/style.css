@@ -1,6 +1,9 @@
 .container{
     min-height: 500px;
 }
+.h-400px{
+    min-height: 400px;
+}
 .col{
     min-height: 50px;
     border: 1px dashed red;
