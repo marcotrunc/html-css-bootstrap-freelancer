@@ -2,7 +2,7 @@
 .h-100px{
     height: 100px;
 }
-#presentation{
+#jumbotron{
     height: 400px;
 }
 #about-me{
@@ -14,22 +14,26 @@
 #address{
     height: 300px;
 }
-footer{
+#copyright{
     height: 150px;
 }
-.border-dash{
+.container{
     border: 1px dashed red;
 }
-#projects .col-12{
+#portfolio .col-12{
     height: 300px;
     border-radius: 10px;
 }
-#projects .col-4{
+#portfolio .col-4{
     height: 50px;
 }
-.footer .col-6{
-    width: 20px;
+#copyright .col-12{
     height: 20px;
+}
+/* Header */
+#hamb-menu.navbar-toggler{
+    border-color: white ;
+    color: #ccb2a3;
 }
 /* Color */
 .header-color{
