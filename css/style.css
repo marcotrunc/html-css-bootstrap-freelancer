@@ -12,13 +12,10 @@
     height: 500px;
 }
 #address{
-    height: 300px;
+    heig ht: 300px;
 }
 #copyright{
-    height: 150px;
-}
-.container{
-    border: 1px dashed red;
+    height: 80px;
 }
 #portfolio .img-fluid{
     border-radius: 10px;
