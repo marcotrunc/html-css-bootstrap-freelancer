@@ -36,6 +36,22 @@
     height: 3px;
     vertical-align: middle;
 }
+/* About me */
+#about-me .btn-outline-secondary{
+    color: white;
+    border-color:white;
+}
+#about-me .btn{
+    border-width: 2px;
+}
+/* Contact me */
+#contact-me .form-control{
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    padding: 0;
+}
+
 /* Color */
 .text-dark-blue{
     color: #2c3e50;
@@ -43,7 +59,7 @@
 .header-color{
     background-color: #2c3e50;
 }
-.presentation-color, .about-me-color{
+.presentation-color, .about-me-color, .contact-me-color{
     background-color: #1abc9c;
 }
 .pro-pink{
