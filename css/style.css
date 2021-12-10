@@ -5,15 +5,7 @@
 #jumbotron{
     height: 400px;
 }
-#about-me{
-    height: 500px;
-}
-#contact-me{
-    height: 500px;
-}
-#address{
-    heig ht: 300px;
-}
+
 #copyright{
     height: 80px;
 }
@@ -22,7 +14,10 @@
 }
 /* Header */
 #hamb-menu.navbar-toggler{
-    border-color: white ;
+    border-color: #ccb2a3 ;
+    color: #ccb2a3;
+}
+#hamb-menu .fa-bars{
     color: #ccb2a3;
 }
 .line{
